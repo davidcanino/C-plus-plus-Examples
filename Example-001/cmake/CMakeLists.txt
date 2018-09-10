@@ -1,9 +1,9 @@
 ##################################################################################
 # Examples in the C++ language (the 'Example-001' Test).
 #
-# GitHub repository: http://github.com/davidcanino/C_plus_plus_examples
+# GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
 #
-# David Canino, March 2018.
+# Created by David Canino (canino.david@gmail.com), September 2018.
 #
 # CMakeLists.txt - the CMake directives for building the 'Example-001' Test.
 ##################################################################################
