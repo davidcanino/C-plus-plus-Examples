@@ -15,17 +15,17 @@ using namespace std;
 /// The main function for the <i>'Example-001'</i> Test.
 int main(void)
 {
-    /* This is the 'Example-001' Test, near to be the classic 'Hello World!' example! */
-    cout<<endl<<"\tThis is the \'Example-001\' Test in the C++ language."<<endl;
-    cout<<"\t====================================================="<<endl<<endl;
-    cout<<"\tHello World!"<<endl<<endl;
-    cout<<"\t====================================================="<<endl<<endl;
-    cout << "\tPress the <RETURN> key to finish ... ";
-    cout.flush();
-    cin.get();
-    #ifndef _MSC_VER
-        cout << endl;
-        cout.flush();
-    #endif
-    return EXIT_SUCCESS;
+	/* This is the 'Example-001' Test, near to be the classic 'Hello World!' example! */
+	cout<<endl<<"\tThis is the \'Example-001\' Test in the C++ language."<<endl;
+	cout<<"\t====================================================="<<endl<<endl;
+	cout<<"\tHello World!"<<endl<<endl;
+	cout<<"\t====================================================="<<endl<<endl;
+	cout << "\tPress the <RETURN> key to finish ... ";
+	cout.flush();
+	cin.get();
+	#ifndef _MSC_VER
+		cout << endl;
+		cout.flush();
+	#endif
+	return EXIT_SUCCESS;
 }
