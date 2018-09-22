@@ -19,3 +19,4 @@ elseif (WIN32 OR CMAKE_HOST_WIN32)
 else ()
 	message(FATAL_ERROR "The current platform is not supported.")
 endif ()
+

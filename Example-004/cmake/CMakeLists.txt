@@ -31,5 +31,3 @@ else ()
 	message(FATAL_ERROR "The current platform is not supported.")
 endif ()
 
-
-
