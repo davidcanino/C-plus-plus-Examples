@@ -5,7 +5,7 @@
  *
  * Created by David Canino (canino.david@gmail.com), September 2018.
  *
- * main.cpp - the source file, implementing the main function for the 'Example-004' Test.
+ * main.cpp - the C++ source file, implementing the main function for the 'Example-004' Test.
  **********************************************************************************************/
 
 #include <iostream>
@@ -34,7 +34,7 @@ int main(void)
     }
     
     /* If we arrive here, then all is ok! */
-    cout <<"\t=================================================================================" << endl << endl;
+    cout << "\t=================================================================================" << endl << endl;
     cout << "\tPress the <RETURN> key to finish ... ";
     cout.flush();
     cin.get();

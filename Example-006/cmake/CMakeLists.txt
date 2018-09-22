@@ -5,7 +5,7 @@
 #
 # Created by David Canino (canino.david@gmail.com), September 2018.
 #
-# CMakeLists.txt - the CMake directives for building the 'Example-006’ Test.
+# CMakeLists.txt - the CMake directives for building the 'Example-006' Test.
 ##################################################################################
 
 cmake_minimum_required(VERSION 2.8.6 FATAL_ERROR)

@@ -5,7 +5,7 @@
  *
  * Created by David Canino (canino.david@gmail.com), September 2018.
  *
- * myfunc.cpp - the source file, where the 'myfunc()' function, used by the 'Example-005' Test, is implemented.
+ * myfunc.cpp - the C++ source file, where the 'myfunc()' function, used by the 'Example-005' Test, is implemented.
  *************************************************************************************************************************/
 
 #include "myfunc.h"

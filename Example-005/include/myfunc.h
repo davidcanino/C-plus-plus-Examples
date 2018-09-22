@@ -5,7 +5,7 @@
  *
  * Created by David Canino (canino.david@gmail.com), September 2018.
  *
- * myfunc.h - the header file, where the 'myfunc()' function, used by the 'Example-005' Test, is defined.
+ * myfunc.h - the C++ header file, where the 'myfunc()' function, used by the 'Example-005' Test, is defined.
  *************************************************************************************************************************/
 
 /* Optional inclusion! */
