@@ -16,10 +16,10 @@ using namespace std;
 int main(void)
 {
 	/* This is the 'Example-001' Test, near to be the classic 'Hello World!' example! */
-	cout<<endl<<"\tThis is the \'Example-001\' Test in the C++ language."<<endl;
-	cout<<"\t====================================================="<<endl<<endl;
-	cout<<"\tHello World!"<<endl<<endl;
-	cout<<"\t====================================================="<<endl<<endl;
+	cout << endl << "\tThis is the \'Example-001\' Test in the C++ language." << endl;
+	cout << "\t=====================================================" << endl << endl;
+	cout << "\tHello World!" << endl << endl;
+	cout << "\t=====================================================" << endl << endl;
 	cout << "\tPress the <RETURN> key to finish ... ";
 	cout.flush();
 	cin.get();
@@ -29,3 +29,4 @@ int main(void)
 	#endif
 	return EXIT_SUCCESS;
 }
+
