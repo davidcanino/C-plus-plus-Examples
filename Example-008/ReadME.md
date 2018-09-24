@@ -2,12 +2,12 @@
 
 <H3>The 'Example-008' Test</H3>
 
-<p>This basic test about the use of the C++ programming language validates the implementation of several functions, defined on a separate header file, in a C++ program. Broadly speaking, this is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.</p>
+<p>This basic test about the use of the C++ programming language validates the implementation of several <i>'overloaded'</i> functions, defined on a separate header file, in a C++ program. By construction, all these <i>'overloaded'</i> functions have the same name but with a different signature. Broadly speaking, this is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.</p>
 
 <p>In particular, this test consists of the <i>'Example-008'</i> executable file, which is based on several components. These latter are distributed in a few files:<p><ul>
 <li>the <i>'main()'</i> function is implemented in the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder);</li>
-<li>the <i>custom</i> functions of interest are defined in the <i>'myfunctions.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);</li>
-<li>the implementation for the <i>custom</i> functions of interest is stored in the <i>'myfunctions.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).</li></ul></p>
+<li>the <i>'overloaded'</i> functions of interest are defined in the <i>'myfunctions.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);</li>
+<li>the implementation for the <i>'overloaded'</i> functions of interest is stored in the <i>'myfunctions.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).</li></ul></p>
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:<p><ul>
 <li>the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;</li>
 <li>the <i><code>'vstudio'</code></i> folder contains the solution file for the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>;</li>
