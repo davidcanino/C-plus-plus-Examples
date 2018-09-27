@@ -3,7 +3,7 @@
 <H3>The 'Example-007' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language shows how exploiting a custom function, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. Broadly speaking, this is an example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program. Specifically, this test validates the implementation of the <i>'factorial()'</i> recursive function for computing the factorial of an integer value.
+	This basic test about the use of the C++ programming language shows how exploiting a custom function, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. Broadly speaking, this is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program. Specifically, this test validates the implementation of the <i>'factorial()'</i> recursive function for computing the factorial of an integer value.
 </p>
 
 <p>In particular, this test consists of the <i>'Example-007'</i> executable file, which is based on several components. These latter are distributed in a few files:
@@ -19,7 +19,6 @@
 	</li>
 </ul>
 </p>
-
 
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:<ul>
 	<li>

@@ -3,7 +3,7 @@
 <H3>The 'Example-005' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language shows how exploiting a custom function, defined on a separate header file, in a C++ program. Broadly speaking, this is an example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.
+	This basic test about the use of the C++ programming language shows how exploiting a custom function, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. Broadly speaking, this is an example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.
 </p>
 
 <p>In particular, this test consists of the <i>'Example-005'</i> executable file, which is based on several components. These latter are distributed in a few files:
