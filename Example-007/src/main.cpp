@@ -34,25 +34,25 @@ int main(void)
     long int n;
 
     /* This is the 'Example-007' Test, which exploits the 'factorial()' function. This latter is defined in the 'recursive_factorial.h' header file. */
-    cout << endl<<"\tThis is the 'Example-007' Test in the C++ language." << endl;
+    cout << endl<<"\tThis is the \'Example-007\' Test in the C++ language." << endl;
     cout << "\t==============================================================================================" << endl << endl;
     cout.flush();
     
     /* TASK #1 - we ask for a positive or null value to be saved in the 'n' variable. */
-    cout << "\tPlease, insert the positive or null 'n' integer value: ";
+    cout << "\tPlease, insert the positive or null \'n\' integer value: ";
     cin >> n;
     if( (!cin) || (n<0) )
     {
         cin.clear();
         cin.clear();
-        cout << endl <<"\tPLEASE, YOU MUST ENTER THE POSITIVE OR NULL 'n' INTEGER VALUE!" << endl << endl << "\tTHIS PROGRAM IS CLOSING ... " << endl << endl;
+        cout << endl <<"\tPLEASE, YOU MUST ENTER THE POSITIVE OR NULL \'n\' INTEGER VALUE!" << endl << endl << "\tTHIS PROGRAM IS CLOSING ... " << endl << endl;
         pause();
         return EXIT_FAILURE;
     }
     
     /* TASK #2 - we can invoke the 'factorial()' function on the 'n' variable. */
     unsigned long nn=(unsigned long)n;
-    cout<< "\tYou inserted the positive or null 'n'=" << nn << " integer value." << endl << endl;
+    cout<< "\tYou inserted the positive or null \'n\'=" << nn << " integer value." << endl << endl;
     unsigned long ris = factorial(nn);
     cout << endl << "\tThe factorial n! = " << n <<"! = " << ris << "." << endl << endl;
     cout.flush();

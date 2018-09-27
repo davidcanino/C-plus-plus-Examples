@@ -14,7 +14,7 @@ using namespace std;
 
 void myfunc(void)
 {
-	cout << "\tThis is the 'myfunc()' function in the 'Example-005' Test." << endl << endl;
+	cout << "\tThis is the \'myfunc()\' function in the \'Example-005\' Test." << endl << endl;
 	cout.flush();
 }
 

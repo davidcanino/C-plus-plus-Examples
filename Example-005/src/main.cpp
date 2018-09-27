@@ -17,7 +17,7 @@ using namespace std;
 int main(void)
 {
     /* This is the 'Example-005' Test, which exploits the 'myfunc()' function. This latter is defined in the 'myfunc.h' C++ header file. */
-    cout << endl<<"\tThis is the 'Example-005' Test in the C++ language." << endl;
+    cout << endl<<"\tThis is the \'Example-005\' Test in the C++ language." << endl;
     cout << "\t=================================================================================" << endl << endl;
     cout.flush();
     myfunc();
