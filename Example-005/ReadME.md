@@ -3,7 +3,7 @@
 <H3>The 'Example-005' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language shows how exploiting a custom function, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. Broadly speaking, this is an example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.
+	This basic test about the use of the C++ programming language shows how exploiting the <i>'myfunc()'</i> custom function, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. Broadly speaking, this is an example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module within a C++ program.
 </p>
 
 <p>In particular, this test consists of the <i>'Example-005'</i> executable file, which is based on several components. These latter are distributed in a few files:
@@ -12,10 +12,10 @@
 		the <i>'main()'</i> function is implemented in the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder);
 	</li>
 	<li>
-		the <i>'myfunc()'</i> function is defined in the <i>'myfunc.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);
+		the <i>'myfunc()'</i> custom function is defined in the <i>'myfunc.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);
 	</li>
 	<li>
-		the implementation of the <i>'myfunc()'</i> function is stored in the <i>'myfunc.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
+		the implementation of the <i>'myfunc()'</i> custom function is stored in the <i>'myfunc.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
 	</li>
 </ul>
 </p>
