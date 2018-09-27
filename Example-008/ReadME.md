@@ -15,7 +15,7 @@
 		the <i>'overloaded'</i> functions of interest are defined in the <i>'myfunctions.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);
 	</li>
 	<li>
-		the implementation for the <i>'overloaded'</i> functions of interest is stored in the <i>'myfunctions.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
+		the <i>'overloaded'</i> functions of interest are implemented in the <i>'myfunctions.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
 	</li>
 </ul>
 </p>

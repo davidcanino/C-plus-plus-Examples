@@ -15,7 +15,7 @@
 		the <i>'factorial()'</i> recursive function is defined in the <i>'recursive_factorial.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);
 	</li>
 	<li>
-		the implementation of the <i>'factorial()'</i> recursive function is stored in the <i>'recursive_factorial.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
+		the <i>'factorial()'</i> recursive function is implemented in the <i>'recursive_factorial.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
 	</li>
 </ul>
 </p>

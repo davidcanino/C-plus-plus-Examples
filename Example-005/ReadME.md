@@ -15,7 +15,7 @@
 		the <i>'myfunc()'</i> custom function is defined in the <i>'myfunc.h'</i> C++ header file (in the <i><code>'include'</code></i> folder);
 	</li>
 	<li>
-		the implementation of the <i>'myfunc()'</i> custom function is stored in the <i>'myfunc.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
+		the <i>'myfunc()'</i> custom function is implemented in the <i>'myfunc.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder).
 	</li>
 </ul>
 </p>
