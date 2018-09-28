@@ -1,5 +1,5 @@
 ##################################################################################
-# Examples in the C++ language (the 'Example-005’ Test).
+# Examples in the C++ language (the 'Example-005' Test).
 #
 # GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
 #
@@ -7,6 +7,7 @@
 #
 # CMakeLists.txt - the CMake directives for building the 'Example-005' Test.
 ##################################################################################
+
 cmake_minimum_required(VERSION 2.8.6 FATAL_ERROR)
 project(Example-005 LANGUAGES CXX)
 if (APPLE OR CMAKE_HOST_APPLE)

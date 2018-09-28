@@ -1,5 +1,5 @@
 ##################################################################################
-# Examples in the C++ language (the 'Example-003’ Test).
+# Examples in the C++ language (the 'Example-003' Test).
 #
 # GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
 #
