@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), September 2018.
+ * Created by David Canino (canino.david@gmail.com), October 2018.
  *
  * myfunctions.cpp - the C++ source file, where the 'overloaded' functions, used by the 'Example-008' Test, are implemented.
  ******************************************************************************************************************************/
@@ -32,3 +32,31 @@ double volume(double a,double b,double c)
 	cout.flush(); 
 	return (a*b*c); 
 }
+
+/// This function simulates a pause while this test runs.
+void pause(bool end)
+{
+    if(end)
+    {
+        cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+        cin.clear();
+        cout << "\t=====================================================================================================================================================" << endl << endl;
+        cout << "\tPress the <RETURN> key to finish ... ";
+        cout.flush();
+        cin.get();
+        #ifndef _MSC_VER
+            cout << endl;
+            cout.flush();
+        #endif
+    }
+    else
+    {
+        cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+        cout << "\tPress the <RETURN> key to continue ... ";
+        cout.flush();
+        cin.get();
+        cout << endl << "\t-----------------------------------------------------------------------------------------------------------------------------------------------------" << endl << endl;
+        cout.flush();
+    }
+}
+

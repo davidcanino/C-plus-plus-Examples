@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), September 2018.
+ * Created by David Canino (canino.david@gmail.com), October 2018.
  *
  * myfunctions.h - the C++ header file, where the 'overloaded' functions, used by the 'Example-008' Test, are defined.
  ******************************************************************************************************************************/
@@ -24,5 +24,8 @@
 
 	/// This function computes the volume of a cuboid with width equal to 'a', depth equal to 'b', and height equal to 'c'.
 	double volume(double a,double b,double c);
+
+	/// This function simulates a pause while this test runs.
+	void pause(bool end = true);
 
 #endif

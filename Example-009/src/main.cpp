@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), September 2018.
+ * Created by David Canino (canino.david@gmail.com), October 2018.
  *
  * main.cpp - the C++ source file, implementing the main function for the 'Example-009' Test.
  **********************************************************************************************/
@@ -17,7 +17,7 @@ using namespace std;
 /// The main function for the <i>'Example-009'</i> Test.
 int main(void)
 {
-    /* This is the 'Example-009' Test, which offers an elementary shell for invoking (upon request) a custom collection of functions, defined in the 'myfunctions.h' header file. */
+    /* This is the 'Example-009' Test, which offers an elementary shell for invoking (upon request) a custom collection of functions, defined in the 'myfunctions.h' C++ header file. */
     cout << endl<<"\tThis is the \'Example-009\' Test in the C++ language." << endl;
     cout << "\t=====================================================================================================================================================" << endl << endl;
     cout.flush();

@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), September 2018.
+ * Created by David Canino (canino.david@gmail.com), October 2018.
  *
  * main.cpp - the C++ source file, implementing the main function for the 'Example-008' Test.
  **********************************************************************************************/
@@ -14,39 +14,12 @@
 #include "myfunctions.h"
 using namespace std;
 
-/// This function simulates a pause while this test runs.
-void pause(bool end = true)
-{
-    if(end)
-    {
-        cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
-        cin.clear();
-        cout << "\t=====================================================================================================================================================" << endl << endl;
-        cout << "\tPress the <RETURN> key to finish ... ";
-        cout.flush();
-        cin.get();
-        #ifndef _MSC_VER
-            cout << endl;
-            cout.flush();
-        #endif
-    }
-    else
-    {
-        cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
-        cout << "\tPress the <RETURN> key to continue ... ";
-        cout.flush();
-        cin.get();
-        cout << endl << "\t-----------------------------------------------------------------------------------------------------------------------------------------------------" << endl << endl;
-        cout.flush();
-    }
-}
-
 /// The main function for the <i>'Example-008'</i> Test.
 int main(void)
 {
     double d, r, h, vc;
     
-    /* This is the 'Example-008' Test, which exploits several 'overloaded' functions, defined in the 'myfunctions.h' header file. */
+    /* This is the 'Example-008' Test, which exploits several 'overloaded' functions, defined in the 'myfunctions.h' C++ header file. */
     cout << endl<<"\tThis is the \'Example-008\' Test in the C++ language." << endl;
     cout << "\t=====================================================================================================================================================" << endl << endl;
     cout.flush();
@@ -85,7 +58,7 @@ int main(void)
         return EXIT_FAILURE;
     }
     
-    /* If we arrive here, the user entered a correct value for the 'r' radius. Now, the user must insert a correct value for the 'h' height of a cylinder. */
+    /* If we arrive here, then the user entered a correct value for the 'r' radius. Now, the user must insert a correct value for the 'h' height of a cylinder. */
     cout << "\tYou inserted the valid \'r\' = " << r << " length for being the radius of the circular basis in a cylinder." << endl;
     cout << "\tPlease, insert the \'h\' length (a positive and not null value) for being the height of a cylinder: ";
     cin >> h;
@@ -120,7 +93,7 @@ int main(void)
         return EXIT_FAILURE;
     }
     
-    /* If we arrive here, the user entered a correct value for the 'a' width. Now, the user must insert a correct value for the 'b' depth of a cuboid. */
+    /* If we arrive here, then the user entered a correct value for the 'a' width. Now, the user must insert a correct value for the 'b' depth of a cuboid. */
     cout << "\tYou inserted the valid \'a\' = " << d << " length for being the width of a cuboid." << endl;
     cout << "\tPlease, insert the \'b\' length (a positive and not null value) for being the depth of a cuboid: ";
     cin >> r;
@@ -134,7 +107,7 @@ int main(void)
         return EXIT_FAILURE;
     }
     
-    /* If we arrive here, the user entered a correct value for the 'b' depth. Now, the user must insert a correct value for the 'c' height of a cuboid. */
+    /* If we arrive here, then the user entered a correct value for the 'b' depth. Now, the user must insert a correct value for the 'c' height of a cuboid. */
     cout << "\tYou inserted the valid \'b\' = " << r << " length for being the depth of a cuboid." << endl;
     cout << "\tPlease, insert the \'c\' length (a positive and not null value) for being the height of a cuboid: ";
     cin >> h;
