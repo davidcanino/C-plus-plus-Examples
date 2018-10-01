@@ -3,7 +3,7 @@
 <H3>The 'Example-010' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language shows how exploiting several <i>'variadic'</i> functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. By construction, a <i>'variadic'</i> function is a function of indefinite arity, i.e., a function, which accepts a variable number of arguments. The number of arguments will be known only when a <i>'variadic'</i> function is actually invoked. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
+	This basic test about the use of the C++ programming language shows how exploiting several <i>'variadic'</i> functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. By construction, a <i>'variadic'</i> function is a function of indefinite arity, i.e., a function, which accepts a variable number of arguments. The real number for the arguments of a <i>'variadic'</i> function arguments is known only when it is actually invoked. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
 </p>
 
 <p>In particular, this test consists of the <i>'Example-010'</i> executable file, which is based on several components. These latter are distributed in a few files:
