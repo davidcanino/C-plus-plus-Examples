@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), September 2018.
+ * Created by David Canino (canino.david@gmail.com), October 2018.
  *
  * main.cpp - the C++ source file, implementing the main function for the 'Example-003' Test.
  **********************************************************************************************/
@@ -31,7 +31,7 @@ int main(int argc,char **argv)
 			/* Now, we compose the string for understanding the maximum number of the '=' chars to be added! */
 			ss << (k-1);
 			aux = ss.str();
-			aux = std::string("\t\t-) the shell parameter #") + aux + std::string(" is the \'") + std::string(argv[k]) + std::string("\' string ");
+			aux = std::string("\t\t-) the shell parameter \x23") + aux + std::string(" is the \'") + std::string(argv[k]) + std::string("\' string ");
 			n = std::max( n, aux.size()+10);
 		}
 	}
@@ -46,8 +46,8 @@ int main(int argc,char **argv)
 		else std::cout << "\tThere are "<<(argc-1)<<" shell parameters for this program:"<< std::endl << std::endl;
 		for(int k=1;k<argc;k++)
 		{
-			std::cout << "\t\t-) the shell parameter #"<<(k-1)<<" is the \'"<<argv[k]<<"\' string";
-			if(k<argc-1) { std::cout << ";" << std::endl << std::endl; }
+			std::cout << "\t\t-) the shell parameter \x23"<<(k-1)<<" is the \'"<<argv[k]<<"\' string";
+			if(k<argc-1) { std::cout << ";" << std::endl; }
 			else { std::cout << "." << std::endl << std::endl; }
 		}
 	}
