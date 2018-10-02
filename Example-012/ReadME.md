@@ -4,7 +4,7 @@
 
 <p>This basic test about the use of the C++ programming language generates the <code>8</code>-bit version of the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> table, used commonly in any language. It is well known that the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> standard (abbreviated from the <i>American Standard Code for Information Interchange</i>) is a character encoding standard for electronic communication. The <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> standard, although they support many additional characters.</p>
 
-<p>Here, we focus our attention on how encoding characters in the C++ language, i.e., as values of <code><i>'char'</i></code> type. Broadly speaking, characters are values of <code><i>'int'</i></code> type, limited to <code>8</code> bits, thus in <code><i>'[0-127]'</i></code> range.</p>
+<p>Here, we focus our attention on how encoding characters in the C++ language, i.e., as values of <code><i>'char'</i></code> type. Broadly speaking, characters are values of <code><i>'int'</i></code> type, limited to <code>8</code> bits, thus in <code><i>'[0;127]'</i></code> range.</p>
 
 <p>In particular, this test consists of the <i>'Example-012'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:<ul>
