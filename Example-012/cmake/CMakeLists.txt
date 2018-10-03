@@ -1,4 +1,4 @@
-################################################################################
+########################################################################################################################################
 # Examples in the C++ language (the 'Example-012' Test).
 #
 # GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
@@ -6,7 +6,7 @@
 # Created by David Canino (canino.david@gmail.com), October 2018.
 #
 # CMakeLists.txt - the CMake directives for building the 'Example-012' Test.
-################################################################################
+########################################################################################################################################
 
 cmake_minimum_required(VERSION 2.8.6 FATAL_ERROR)
 project(Example-012 LANGUAGES CXX)
