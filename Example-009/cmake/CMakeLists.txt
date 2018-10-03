@@ -18,7 +18,7 @@ if(COMPILER_SUPPORTS_CXX11)
 elseif(COMPILER_SUPPORTS_CXX0X)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 else ()
-	message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} is not C++11 compliant compiler. Please use a different C++ compiler!")
+	message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} is not a C++11 compliant compiler. Please use a different C++ compiler!")
 endif()
 
 # If we arrive here, then the current compiler is a C++11 compliant compiler.
