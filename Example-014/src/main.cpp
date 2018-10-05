@@ -31,8 +31,8 @@ int main(void)
     cout << "\t-) has " << (int)std::numeric_limits<char>::min() << " as the lowest finite value, representable as a \'char\' value;" << endl;
     cout << "\t-) has " << (int)std::numeric_limits<char>::max() << " as the maximum finite value, representable as a \'char\' value;" << endl;
     cout << "\t-) requires " << sizeof(char) << " byte for being represented;" << endl;
-    cout << "\t-) requires " << std::numeric_limits<char>::digits << " digit;" << endl;
-    cout << "\t-) requires " << std::numeric_limits<char>::digits10 << " base-10 digit;" << endl;
+    cout << "\t-) requires " << std::numeric_limits<char>::digits << " digits;" << endl;
+    cout << "\t-) requires " << std::numeric_limits<char>::digits10 << " base-10 digits;" << endl;
     if(std::numeric_limits<char>::is_signed) cout << "\t-) represents signed values;" << endl;
     else cout << "\t-) does not represent signed values;" << endl;
     if(std::numeric_limits<char>::is_integer) cout << "\t-) represents integer values;" << endl;
