@@ -32,10 +32,10 @@ int main(int argc,char **argv)
 			ss << (k-1);
 			aux = ss.str();
 			aux = std::string("\t\t-) the shell parameter \x23") + aux + std::string(" is the \'") + std::string(argv[k]) + std::string("\' string ");
-			n = std::max( n, aux.size()+10);
+			n = std::max( n, (unsigned long)(aux.size()+10));
 		}
 	}
-	else { n = std::max( n, std::string("\tThere is no shell parameter for this program.").size()+5); }
+	else { n = std::max( n, (unsigned long)(std::string("\tThere is no shell parameter for this program.").size()+5)); }
 	
 	/* Now, we finalize our results! */
 	std::cout << "\t" << std::string(n,'=') << std::endl << std::endl;
