@@ -3,10 +3,13 @@
 <H3>The 'Example-003' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language tries to recognize what shell parameters are passed as arguments of the program, and exports their number and content on the standard output. These basic operations may be useful for the debugging purposes.
+	This basic test about the use of the C++ programming language tries to recognize what shell parameters are passed as arguments of the program, and exports their number and content on the standard output stream. These basic operations may be useful for the debugging purposes.
 </p>
+<p><hr></p>
 
-<p>In particular, this test consists of the <i>'Example-003'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
+<p>This test consists of the <i>'Example-003'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:<ul>
 	<li>
 		the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;
