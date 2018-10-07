@@ -5,8 +5,8 @@
 <p>This basic test about the use of the C++ programming language is similar to the classic <i>'Hello World'</i> program for testing the correctness of the building infrastructure.</p>
 <p><hr></p>
 
-<!--- Source Files Organization --->
-<h4>Source Files Organization</h4>
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
 <p>This test consists of the <i>'Example-001'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:<ul>
 	<li>
