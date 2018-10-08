@@ -3,7 +3,7 @@
 <H3>The 'Example-013' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'bool'</i></code> C++ built-in type. As you know, this type is capable of holding one of the <code>2</code> values, i.e., the <i>true</i> or <i>false</i> value. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> specialized class. Also the new capabilities of this class, introduced by the C++11 standard, are evaluated and exploited.
+	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'bool'</i></code> C++ built-in type. As you know, this type is capable of holding one of the <code>2</code> values, i.e., the <i>'true'</i> or <i>'false'</i> value. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
 </p>
 <p>
 	<!--- C++11 Alert --->
@@ -12,7 +12,7 @@
 			<td>
 				<p><b>VERY IMPORTANT:</b></p>
 					<p>
-						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant.
+						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant compilers.
 					</p>
 			</td>
 		</tr>
@@ -37,7 +37,6 @@
 </ul>
 </p>
 <p><hr></p>
-
 
 <!--- Building with the CMAKE Building Tool --->
 <h4>Instructions for building this test with the <i><A href="https://cmake.org">CMake Building Tool</A></i></h4>

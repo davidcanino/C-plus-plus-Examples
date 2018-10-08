@@ -12,7 +12,7 @@
 			<td>
 				<p><b>VERY IMPORTANT:</b></p>
 					<p>
-						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant.
+						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant compilers.
 					</p>
 			</td>
 		</tr>
