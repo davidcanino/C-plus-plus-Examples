@@ -5,9 +5,24 @@
 <p>
 	This basic test about the use of the C++ programming language shows how exploiting several custom functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. These custom functions exploit several capabilities, introduced by the C++11 standard. In this context, the user can choose what custom function must be executed through a basic textual shell. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
 </p>
+<p>
+	<!--- C++11 Alert --->
+	<table border=1 width=100%>
+		<tr>
+			<td>
+				<p><b>VERY IMPORTANT:</b></p>
+					<p>
+						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant compilers.
+					</p>
+			</td>
+		</tr>
+	</table>
+</p>
+<p><hr></p>
 
-
-<p>In particular, this test consists of the <i>'Example-009'</i> executable file, which is based on several components. These latter are distributed in a few files:
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
+<p>This test consists of the <i>'Example-009'</i> executable file, which is based on several components. These latter are distributed in a few files:
 <ul>
 	<li>
 		the <i>'main()'</i> function is implemented in the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder);
@@ -32,20 +47,6 @@
 		the <i><code>'xcode'</code></i> folder contains the project file for the <i><A href="https://developer.apple.com/xcode/">Apple XCode</A></i>.
 	</li>
 </ul>
-</p>
-
-<p>
-	<!--- C++11 Alert --->
-	<table border=1 width=100%>
-		<tr>
-			<td>
-				<p><b>VERY IMPORTANT:</b></p>
-					<p>
-						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant.
-					</p>
-			</td>
-		</tr>
-	</table>
 </p>
 <p><hr></p>
 
