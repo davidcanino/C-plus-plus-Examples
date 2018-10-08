@@ -3,21 +3,7 @@
 <H3>The 'Example-013' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'bool'</i></code> C++ built-in type. Broadly speaking, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> specialized class. Also the new capabilities of this class, introduced by the C++11 standard, are evaluated and exploited.
-</p>
-<p>In particular, this test consists of the <i>'Example-013'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
-<p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:
-<ul>
-	<li>
-		the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;
-	</li>
-	<li>
-		the <i><code>'vstudio'</code></i> folder contains the solution file for the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>;
-	</li>
-	<li>
-		the <i><code>'xcode'</code></i> folder contains the project file for the <i><A href="https://developer.apple.com/xcode/">Apple XCode</A></i>.
-	</li>
-</ul>
+	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'bool'</i></code> C++ built-in type. As you know, this type is capable of holding one of the <code>2</code> values, i.e., the <i>true</i> or <i>false</i> value. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> specialized class. Also the new capabilities of this class, introduced by the C++11 standard, are evaluated and exploited.
 </p>
 <p>
 	<!--- C++11 Alert --->
@@ -31,6 +17,24 @@
 			</td>
 		</tr>
 	</table>
+</p>
+<p><hr></p>
+
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
+<p>This test consists of the <i>'Example-013'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
+<p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:
+<ul>
+	<li>
+		the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;
+	</li>
+	<li>
+		the <i><code>'vstudio'</code></i> folder contains the solution file for the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>;
+	</li>
+	<li>
+		the <i><code>'xcode'</code></i> folder contains the project file for the <i><A href="https://developer.apple.com/xcode/">Apple XCode</A></i>.
+	</li>
+</ul>
 </p>
 <p><hr></p>
 
