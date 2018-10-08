@@ -5,8 +5,11 @@
 <p>
 	This basic test about the use of the C++ programming language shows how exploiting several <i>'overloaded'</i> functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. By construction, all these <i>'overloaded'</i> functions have the same name but a different signature, and operate on <i>'double floating point'</i> values, inserted by the user. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
 </p>
+<p><hr></p>
 
-<p>In particular, this test consists of the <i>'Example-008'</i> executable file, which is based on several components. These latter are distributed in a few files:
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
+<p>This test consists of the <i>'Example-008'</i> executable file, which is based on several components. These latter are distributed in a few files:
 <ul>
 	<li>
 		the <i>'main()'</i> function is implemented in the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder);
