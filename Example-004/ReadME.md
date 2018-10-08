@@ -5,20 +5,6 @@
 <p>
 	This basic test about the use of the C++ programming language performs several implicit initializations of an array, and the efficient traversal of an array by using an <i>'automatic'</i> variable. These C++ statements were introduced for the first time by the C++11 standard.
 </p>
-<p>In particular, this test consists of the <i>'Example-004'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
-<p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:
-<ul>
-	<li>
-		the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;
-	</li>
-	<li>
-		the <i><code>'vstudio'</code></i> folder contains the solution file for the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>;
-	</li>
-	<li>
-		the <i><code>'xcode'</code></i> folder contains the project file for the <i><A href="https://developer.apple.com/xcode/">Apple XCode</A></i>.
-	</li>
-</ul>
-</p>
 <p>
 	<!--- C++11 Alert --->
 	<table border=1 width=100%>
@@ -31,6 +17,23 @@
 			</td>
 		</tr>
 	</table>
+</p>
+<p><hr></p>
+
+<!--- Test Files Organization --->
+<p>This test consists of the <i>'Example-004'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
+<p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:
+<ul>
+	<li>
+		the <i><code>'cmake'</code></i> folder contains the project file for the <i><A href="https://cmake.org">CMake Building Tool</A></i>;
+	</li>
+	<li>
+		the <i><code>'vstudio'</code></i> folder contains the solution file for the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>;
+	</li>
+	<li>
+		the <i><code>'xcode'</code></i> folder contains the project file for the <i><A href="https://developer.apple.com/xcode/">Apple XCode</A></i>.
+	</li>
+</ul>
 </p>
 <p><hr></p>
 
