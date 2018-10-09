@@ -1,15 +1,15 @@
 #############################################################################################################################################
-# Examples in the C++ language (the 'Example-021' Test).
+# Examples in the C++ language (the 'Example-023' Test).
 #
 # GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
 #
 # Created by David Canino (canino.david@gmail.com), October 2018.
 #
-# CMakeLists.txt - the CMake directives for building the 'Example-021' Test.
+# CMakeLists.txt - the CMake directives for building the 'Example-023' Test.
 #############################################################################################################################################
 
 cmake_minimum_required(VERSION 2.8.6 FATAL_ERROR)
-project(Example-021 LANGUAGES CXX)
+project(Example-023 LANGUAGES CXX)
 include(CheckCXXCompilerFlag)
 CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
 CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
@@ -23,11 +23,11 @@ endif()
 
 # If we arrive here, then the current compiler is a C++11 compliant compiler.
 if (APPLE OR CMAKE_HOST_APPLE)
-	add_executable(Example-021 ../src/main.cpp)
+	add_executable(Example-023 ../src/main.cpp)
 elseif (UNIX OR CMAKE_HOST_UNIX)
-	add_executable(Example-021 ../src/main.cpp)
+	add_executable(Example-023 ../src/main.cpp)
 elseif (WIN32 OR CMAKE_HOST_WIN32)
-	add_executable(Example-021 ../src/main.cpp)
+	add_executable(Example-023 ../src/main.cpp)
 else ()
 	message(FATAL_ERROR "The current platform is not supported.")
 endif ()
