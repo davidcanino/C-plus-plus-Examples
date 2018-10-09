@@ -3,7 +3,7 @@
 <H3>The 'Example-014' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'char'</i></code> C++ built-in type. As you know, this type is capable of holding the characters representation, which can be most efficiently processed on the target system. Usually, any <code>8</code>-bits character of the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> standard is representable by this type. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< char >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
+	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'char'</i></code> C++ built-in type. As you know, this type is capable of holding the characters representation, which can be most efficiently processed on the target system. Usually, the signed variant of any <code>8</code>-bits character in the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> standard is representable by this type. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< char >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
 </p>
 <p>
 	<!--- C++11 Alert --->
