@@ -3,7 +3,7 @@
 <H3>The 'Example-003' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language tries to recognize what shell parameters are passed as arguments of the program, and exports their number and content on the standard output stream. These basic operations may be useful for the debugging purposes.
+	This test about the use of the C++ programming language tries to recognize what shell arguments are passed as arguments of the program, and exports their number and content on the standard output stream. These basic operations may be useful for the debugging purposes.
 </p>
 <p><hr></p>
 

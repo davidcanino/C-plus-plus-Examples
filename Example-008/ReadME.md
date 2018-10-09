@@ -3,7 +3,7 @@
 <H3>The 'Example-008' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language shows how exploiting several <i>'overloaded'</i> functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. By construction, all these <i>'overloaded'</i> functions have the same name but a different signature, and operate on <i>'double floating point'</i> values, inserted by the user. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
+	This test about the use of the C++ programming language shows how exploiting several <i>'overloaded'</i> functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. By construction, all these <i>'overloaded'</i> functions have the same name but a different signature, and operate on positive <i>'double floating point'</i> values, inserted by the user. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
 </p>
 <p><hr></p>
 

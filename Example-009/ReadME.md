@@ -3,7 +3,7 @@
 <H3>The 'Example-009' Test</H3>
 	
 <p>
-	This test about the use of the C++ programming language shows how exploiting several custom functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. These custom functions exploit several capabilities, introduced by the C++11 standard. In this context, the user can choose what custom function must be executed through a basic textual shell. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
+	This test about the use of the C++ programming language shows how exploiting several custom functions, defined and implemented on a separate C++ header and source file, respectively, in a C++ program. These custom functions exploit several capabilities, introduced by the C++11 standard. In this context, the user can choose what custom function must be executed through a basic text interface. Broadly speaking, this test is another example of the <i>separate (modular) compiling</i> techniques for exploiting a (third-party) module in a C++ program.
 </p>
 <p>
 	<!--- C++11 Alert --->
