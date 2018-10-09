@@ -3,9 +3,26 @@
 <H3>The 'Example-016' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'short int'</i></code> C++ built-in type. Broadly speaking, we exploit the <code><i>'std::numeric_limits< short int >'</i></code> specialized class. Also the new capabilities of this class, introduced by the C++11 standard, are evaluated and exploited.
+	This basic test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'short int'</i></code> C++ built-in type. As you know, this type is capable of holding the basic <i>'integer'</i> signed values. In this case, the target type will be optimized for space, and will have width of at least <code>16</code> bits. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< short int >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
 </p>
-<p>In particular, this test consists of the <i>'Example-016'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
+<p>
+	<!--- C++11 Alert --->
+	<table border=1 width=100%>
+		<tr>
+			<td>
+				<p><b>VERY IMPORTANT:</b></p>
+					<p>
+						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant compilers.
+					</p>
+			</td>
+		</tr>
+	</table>
+</p>
+<p><hr></p>
+
+<!--- Test Files Organization --->
+<h4>Test Files Organization</h4>
+<p>This test consists of the <i>'Example-016'</i> executable file, starting uniquely from the <i>'main.cpp'</i> C++ source file (in the <i><code>'src'</code></i> folder) without using other dependencies.</p>
 <p>Several methods for building this test are provided, and their building infrastructure is saved in the following folders:
 <ul>
 	<li>
@@ -19,21 +36,7 @@
 	</li>
 </ul>
 </p>
-<p>
-	<!--- C++11 Alert --->
-	<table border=1 width=100%>
-		<tr>
-			<td>
-				<p><b>VERY IMPORTANT:</b></p>
-					<p>
-						It is clear that this test can be built and run ONLY if your C++ compiler is a C++11-compliant compiler. The most recent versions of the compilers in the current literature are C++11-compliant.
-					</p>
-			</td>
-		</tr>
-	</table>
-</p>
 <p><hr></p>
-
 
 <!--- Building with the CMAKE Building Tool --->
 <h4>Instructions for building this test with the <i><A href="https://cmake.org">CMake Building Tool</A></i></h4>
