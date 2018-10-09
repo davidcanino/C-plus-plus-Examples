@@ -2,7 +2,7 @@
 
 <H3>The 'Example-001' Test</H3>
 
-<p>This basic test about the use of the C++ programming language is similar to the classic <i>'Hello World'</i> program for testing the correctness of the building infrastructure.</p>
+<p>This test about the use of the C++ programming language is similar to the classic <i>'Hello World'</i> program for testing the correctness of the building infrastructure.</p>
 <p><hr></p>
 
 <!--- Test Files Organization --->

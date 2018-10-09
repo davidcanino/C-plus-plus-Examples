@@ -2,7 +2,7 @@
 
 <H3>The 'Example-002' Test</H3>
 
-<p>This basic test about the use of the C++ programming language is similar to the classic <i>'Hello World'</i> program for testing the correctness of the building infrastructure. In this case, the <i>'puts()'</i> C function is exploited.</p>
+<p>This test about the use of the C++ programming language is similar to the classic <i>'Hello World'</i> program for testing the correctness of the building infrastructure. In this case, the <i>'puts()'</i> C function is exploited.</p>
 <p><hr></p>
 
 <!--- Test Files Organization --->

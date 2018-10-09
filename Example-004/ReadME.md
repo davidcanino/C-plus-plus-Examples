@@ -3,7 +3,7 @@
 <H3>The 'Example-004' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language performs several implicit initializations of an array, and the efficient traversal of an array by using an <i>'automatic'</i> variable. These C++ statements were introduced for the first time by the C++11 standard.
+	This test about the use of the C++ programming language performs several implicit initializations of an array, and the efficient traversal of an array by using an <i>'automatic'</i> variable. These C++ statements were introduced for the first time by the C++11 standard.
 </p>
 <p>
 	<!--- C++11 Alert --->

@@ -3,7 +3,7 @@
 <H3>The 'Example-006 ' Test</H3>
 
 <p>
-	This basic test about the use of the C++ programming language validates the creation of several labels, and the navigation through these labels in a not standard manner (<i>code jumping</i>) by using the <i>goto</i> statement.
+	This test about the use of the C++ programming language validates the creation of several labels, and the navigation through these labels in a not standard manner (<i>code jumping</i>) by using the <i>goto</i> statement.
 </p>
 <p><hr></p>
 
