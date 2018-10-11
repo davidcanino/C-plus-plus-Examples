@@ -3,7 +3,7 @@
 <H3>The 'Example-018' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> signed values, and will have width of at least <code>16</code> bits. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< int >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
+	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> signed values, and will have width of at least <code>32</code> bits. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< int >'</i></code> specialized class, evaluating and validating even the new capabilities of this class, introduced by the C++11 standard.
 </p>
 <p>
 	<!--- C++11 Alert --->
