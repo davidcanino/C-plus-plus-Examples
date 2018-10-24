@@ -3,7 +3,7 @@
 <H3>The 'Example-017' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'unsigned short int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> unsigned values. In this case, the target type is <i>'short'</i>, and optimized for space, and has width of <code>16</code> bits. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< unsigned short int >'</i></code> class, validating even its C++11 capabilities.
+	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'unsigned short int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> unsigned values. In this case, the target type is <i>'short'</i>, optimized for space, and <code>16</code> bits long. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< unsigned short int >'</i></code> class, validating even its C++11 capabilities.
 </p>
 <p>
 	<!--- C++11 Alert --->
