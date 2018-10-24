@@ -3,7 +3,7 @@
 <H3>The 'Example-021' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'unsigned long int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> unsigned values. In this case, the target type is <i>'long'</i>, and has width of <code>32|64</code> bits, depending on the platform. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< unsigned long int >'</i></code> class, validating even its C++11 capabilities.
+	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'unsigned long int'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'integer'</i> unsigned values. In this case, the target type is <i>'long'</i> and <code>32|64</code> bits long, depending on the platform. Broadly speaking, in this test, we exploit the <code><i>'std::numeric_limits< unsigned long int >'</i></code> class, validating even its C++11 capabilities.
 </p>
 <p>
 	<!--- C++11 Alert --->
