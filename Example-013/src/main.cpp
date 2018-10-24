@@ -11,6 +11,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <limits>
+#include <cstdbool>
 using namespace std;
 
 /// The main function for the <i>'Example-013'</i> Test.
@@ -43,7 +44,7 @@ int main(void)
     else cout << "\t-) does not represent the \'infinity\' value;" << endl << endl;
     cout.flush();
     
-    /* TASK #2 - finalizing our analysis! */
+    /* TASK #2 - continuining our analysis! */
     if(std::numeric_limits<bool>::is_iec559) cout << "\t-) fulfills the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     else cout << "\t-) does not fulfill the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     cout << "\t-) has " << std::numeric_limits<bool>::radix << " as the base of the number system for being represented (radix);" << endl;
@@ -100,6 +101,16 @@ int main(void)
             cout.flush();
             break;
     }
+    
+    /* TASK #3: finalizing our analysis! */
+    cout << "\tThe current compiler ";
+    if(__bool_true_false_are_defined)
+    {
+        cout << "supports natively the \'true\' and \'false\' constant values, so that: " << endl <<endl;
+        cout << "\t-) the \'true\' constant value is " << true << ";" << endl;
+        cout << "\t-) the \'false\' constant value is " << false << "." << endl << endl;
+    }
+    else { cout << "does not support natively the \'true\' and \'false\' constant values. " << endl <<endl; }
 
     /* If we arrive here, then all is ok! */
     cout << "\t=======================================================================================================================================================" << endl << endl;
