@@ -6,7 +6,7 @@
 	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'char'</i></code> C++ built-in type. As you know, this type is capable of holding the signed characters representation, which can be most efficiently processed on the target system. Usually, the signed variant of any <code>8</code> bits character in the <A href="https://en.wikipedia.org/wiki/ASCII"><i>ASCII</i></A> standard is representable by this type. 
 	</p>
 <p>	
-Broadly speaking, we exploit the <code><i>'std::numeric_limits< char >'</i></code> class, validating even its C++11 capabilities.
+Specifically, we exploit the <code><i>'std::numeric_limits< char >'</i></code> class, validating even its C++11 capabilities.
 </p>
 <p>
 	<!--- C++11 Alert --->
