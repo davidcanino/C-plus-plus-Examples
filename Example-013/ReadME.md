@@ -5,7 +5,7 @@
 <p>
 	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'bool'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>'boolean'</i> values, i.e., the <i>'true'</i> and <i>'false'</i> values.
 </p>
-<p>Broadly speaking, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> class, validating even its C++11 capabilities.
+<p>Specifically, we exploit the <code><i>'std::numeric_limits< bool >'</i></code> class, validating even its C++11 capabilities.
 </p>
 <p>
 	<!--- C++11 Alert --->
