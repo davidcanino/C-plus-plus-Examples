@@ -43,7 +43,7 @@ int main(void)
     else cout << "\t-) does not represent the \'infinity\' value;" << endl << endl;
     cout.flush();
     
-    /* TASK #2 - finalizing our analysis! */
+    /* TASK #2 - continuing our analysis! */
     if(std::numeric_limits<unsigned short int>::is_iec559) cout << "\t-) fulfills the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     else cout << "\t-) does not fulfill the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     cout << "\t-) has " << std::numeric_limits<unsigned short int>::radix << " as the base of the number system for being represented (radix);" << endl;
@@ -100,6 +100,9 @@ int main(void)
             cout.flush();
             break;
     }
+    
+    /* TASK #3 - finalizing our analysis! */
+    cout << "\tIn the current platform, the maximum value for an object of \'unsigned short int\' type is " << USHRT_MAX << " (see the USHRT_MAX macro)." << endl << endl;
 
     /* If we arrive here, then all is ok! */
     cout << "\t=======================================================================================================================================================" << endl << endl;
