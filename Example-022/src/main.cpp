@@ -11,6 +11,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <limits>
+#if !(__APPLE_CC__ || __APPLE__ || __OSX__ )
+        #include <cuchar>
+#endif
 using namespace std;
 
 /// The main function for the <i>'Example-022'</i> Test.
@@ -103,8 +106,7 @@ int main(void)
     
     /* TASK #3 - finalizing our analysis! It doesn't work on any Mac! */
     #if !(__APPLE_CC__ || __APPLE__ || __OSX__ )
-        #include <uchar.h>
-        #if __STD_UTF_16__
+        #ifdef __STD_UTF_16__
             cout << "\tIn the current platform, values of \'char16_t\' type have UTF-16 encoding (see the __STD_UTF_16__ macro)." << endl <<endl;
         #else
             cout << "\tIn the current platform, values of \'char16_t\' type have an unknown encoding (see the __STD_UTF_16__ macro)." << endl <<endl;
