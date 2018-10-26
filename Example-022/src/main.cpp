@@ -43,7 +43,7 @@ int main(void)
     else cout << "\t-) does not represent the \'infinity\' value;" << endl << endl;
     cout.flush();
     
-    /* TASK #2 - finalizing our analysis! */
+    /* TASK #2 - continuing our analysis! */
     if(std::numeric_limits<char16_t>::is_iec559) cout << "\t-) fulfills the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     else cout << "\t-) does not fulfill the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     cout << "\t-) has " << std::numeric_limits<char16_t>::radix << " as the base of the number system for being represented (radix);" << endl;
@@ -100,6 +100,16 @@ int main(void)
             cout.flush();
             break;
     }
+    
+    /* TASK #3 - finalizing our analysis! It doesn't work on any Mac! */
+    #if !(__APPLE_CC__ || __APPLE__ || __OSX__ )
+        #include <uchar.h>
+        #if __STD_UTF_16__
+            cout << "\tIn the current platform, values of \'char16_t\' type have UTF-16 encoding (see the __STD_UTF_16__ macro)." << endl <<endl;
+        #else
+            cout << "\tIn the current platform, values of \'char16_t\' type have an unknown encoding (see the __STD_UTF_16__ macro)." << endl <<endl;
+        #endif
+    #endif
 
     /* If we arrive here, then all is ok! */
     cout << "\t=======================================================================================================================================================" << endl << endl;
