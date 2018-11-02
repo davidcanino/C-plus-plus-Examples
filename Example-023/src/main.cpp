@@ -3,14 +3,17 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), October 2018.
+ * Created by David Canino (canino.david@gmail.com), November 2018.
  *
- * main.cpp - the C++ source file, implementing the main function for the 'Example-02' Test.
+ * main.cpp - the C++ source file, implementing the main function for the 'Example-023' Test.
  **********************************************************************************************************************************************************************************/
 
 #include <iostream>
 #include <cstdlib>
 #include <limits>
+#if !(__APPLE_CC__ || __APPLE__ || __OSX__ )
+    #include <cuchar>
+#endif
 using namespace std;
 
 /// The main function for the <i>'Example-023'</i> Test.
@@ -43,7 +46,7 @@ int main(void)
     else cout << "\t-) does not represent the \'infinity\' value;" << endl << endl;
     cout.flush();
     
-    /* TASK #2 - finalizing our analysis! */
+    /* TASK #2 - continuing our analysis! */
     if(std::numeric_limits<char32_t>::is_iec559) cout << "\t-) fulfills the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     else cout << "\t-) does not fulfill the requirements of the IEC 559 (IEEE 754) standard;" << endl;
     cout << "\t-) has " << std::numeric_limits<char32_t>::radix << " as the base of the number system for being represented (radix);" << endl;
@@ -81,7 +84,7 @@ int main(void)
             cout << "\t-) exploits the \'round to nearest\' policy for rounding not completely \'char32_t\' values." << endl << endl;
             cout.flush();
             break;
-
+            
         case round_toward_infinity:
             
             cout << "\t-) exploits the \'round to the positive infinity\' policy for rounding not completely \'char32_t\' values." << endl << endl;
@@ -100,6 +103,15 @@ int main(void)
             cout.flush();
             break;
     }
+    
+    /* TASK #3 - finalizing our analysis! It doesn't work on any Mac! */
+    #if !(__APPLE_CC__ || __APPLE__ || __OSX__ )
+        #ifdef __STD_UTF_32__
+            cout << "\tIn the current platform, values of \'char32_t\' type have UTF-32 encoding (see the __STD_UTF_32__ macro)." << endl <<endl;
+        #else
+            cout << "\tIn the current platform, values of \'char32_t\' type have an unknown encoding (see the __STD_UTF_32__ macro)." << endl <<endl;
+        #endif
+    #endif
 
     /* If we arrive here, then all is ok! */
     cout << "\t=======================================================================================================================================================" << endl << endl;
