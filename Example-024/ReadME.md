@@ -3,7 +3,7 @@
 <H3>The 'Example-024' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'wchar_t'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>wide</i> characters representation. A <i>wide</i> character generally has a size greater than the traditional <code>8</code> bits character. The increased datatype size allows for the use of larger coded character sets. The width of the <code><i>wchar_t</i></code> C++ built-in type is compiler-specific, and can be as small as <code>8</code> bits.
+	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'wchar_t'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>wide</i> characters representation. A <i>wide</i> character generally has a size greater than the traditional <code>8</code> bits character, depending on the compiler. The increased datatype size allows for the use of larger coded character sets.
 </p>
 <p>Specifically, we exploit the <code><i>'std::numeric_limits< wchar_t >'</i></code> class, validating even its C++11 capabilities.
 </p>
