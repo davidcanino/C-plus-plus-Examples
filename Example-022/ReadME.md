@@ -3,7 +3,7 @@
 <H3>The 'Example-022' Test</H3>
 
 <p>
-	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'char16_t'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>UTF-16</i> characters representation, required to be large enough to represent any Unicode code unit using <code>16</code> bits (thus <code>2</code> bytes).
+	This test about the use of the C++ programming language exploits the <code><i>'std::numeric_limits'</i></code> template class (defined in the <code><i>'< limits >'</i></code> header file) for analyzing several properties of the <code><i>'char16_t'</i></code> C++ built-in type. As you know, this type is capable of holding the <i>UTF-16</i> characters representation, required to be large enough to store any Unicode code unit using <code>16</code> bits (thus <code>2</code> bytes).
 </p>
 <p>Specifically, we exploit the <code><i>'std::numeric_limits< char16_t >'</i></code> class, validating even its C++11 capabilities.
 </p>
