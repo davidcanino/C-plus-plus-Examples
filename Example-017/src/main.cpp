@@ -3,7 +3,7 @@
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
  *
- * Created by David Canino (canino.david@gmail.com), October 2018.
+ * Created by David Canino (canino.david@gmail.com), November 2018.
  *
  * main.cpp - the C++ source file, implementing the main function for the 'Example-017' Test.
  **********************************************************************************************************************************************************************************/
@@ -11,6 +11,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <limits>
+#include <climits>
 using namespace std;
 
 /// The main function for the <i>'Example-017'</i> Test.
