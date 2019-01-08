@@ -78,7 +78,7 @@ make
 	<tr>
 		<td>
 			<p><b>ATTENTION:</b></p>
-			<p>All third-party trademarks or registered trademarks are the property of their respective owners. I am not affiliated to or sponsored by these third-party entities.</p>
+			<p>All third-party registered trademarks are the property of their respective owners. I am not affiliated to or sponsored by these third-party entities.</p>
 		</td>
 	</tr>
 </table>

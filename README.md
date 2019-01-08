@@ -7,4 +7,4 @@
   
 <p>Their <A href="https://cmake.org"><i>CMake</i></A> building infrastructure is provided, as well as the corresponding <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> solution file, and the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> project file.</p>
 
-<p><hr><p><table border=1><tr><td><p><b>ATTENTION:</b><p>All third-party trademarks or registered trademarks are the property of their respective owners. I am not affiliated to or sponsored by these third-party entities.</td></tr></table>
+<p><hr><p><table border=1><tr><td><p><b>ATTENTION:</b><p>All third-party registered trademarks are the property of their respective owners. I am not affiliated to or sponsored by these third-party entities.</td></tr></table>
