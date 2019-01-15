@@ -2,7 +2,7 @@
 
 <H3>The 'Example-200' Test</H3>
 
-<p>This test about the use of the C++ programming language validates the use of the <i><code>&</code></i> operator (bitwise and operator) using the results of invoking the same function several times but with different arguments.</p>
+<p>This test about the use of the C++ programming language validates the use of the <i><code>&</code></i> operator (bitwise AND operator) using the results of invoking the same function several times but with different arguments.</p>
 <p><hr></p>
 
 <!--- Test Files Organization --->
