@@ -18,11 +18,11 @@ int fun(int x) { return 2*x; }
 /// The main function for the <i>'Example-200'</i> Test.
 int main(void)
 {
-	int i0,i1,i5,i;
-
-	/* This is the 'Example-200' Test, which validates functions and the bitwise and operator (&)! */
-	cout << endl << "\tThis is the \'Example-200\' Test in the C++ language." << endl;
-	cout <<"\t==============================================================" << endl <<endl;
+    int i0,i1,i5,i;
+    
+    /* This is the 'Example-200' Test, which validates the bitwise AND operator (&)! */
+    cout << endl << "\tThis is the \'Example-200\' Test in the C++ language." << endl;
+    cout <<"\t==============================================================" << endl <<endl;
 	
     /* First pair of attempts: 'fun(0) & fun(1)' and 'fun(1) & fun(0)' */
     cout << "\tThe value of \'i0 = fun(0)\' is ";
