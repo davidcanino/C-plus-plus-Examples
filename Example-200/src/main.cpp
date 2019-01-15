@@ -25,38 +25,38 @@ int main(void)
 	cout <<"\t==============================================================" << endl <<endl;
 	
     /* First attempt: fun(0) & fun(1) */
-    cout << "\tThe return value \'i0 = fun(0)\' is ";
+    cout << "\tThe value of \'i0 = fun(0)\' is ";
 	i0 = fun(0);
 	cout << i0 << "."  << endl;
-	cout << "\tThe return value \'i1 = fun(1)\' is ";
+	cout << "\tThe value of \'i1 = fun(1)\' is ";
 	i1 = fun(1);
 	cout << i1 << "."  << endl;
-	cout<< "\tThus, the bitwise and operator \'i = i0 & i1\' returns ";
+	cout<< "\tThus, the value of \'i = i0 & i1\' is ";
 	i = i0 & i1;
 	cout << i <<"." << endl << flush;
-    cout<< "\tThus, the bitwise and operator \'i = i1 & i0\' returns ";
+    cout<< "\tThus, the value of \'i = i1 & i0\' is ";
     i = i1 & i0;
     cout << i <<"." << endl << endl << flush;
     
     /* Second attempt: fun(1) & fun(1) */
-    cout << "\tThe return value \'i1 = fun(1)\' is ";
+    cout << "\tThe value of \'i1 = fun(1)\' is ";
     i1 = fun(1);
     cout << i1 << "."  << endl;
-    cout<< "\tThus, the bitwise and operator \'i = i1 & i1\' returns ";
+    cout<< "\tThus, the value of \'i = i1 & i1\' is ";
     i = i1 & i1;
     cout << i <<"." << endl << endl << flush; 
     
     /* Third attempt: fun(1) & fun(2) */
-    cout << "\tThe return value \'i1 = fun(1)\' is ";
+    cout << "\tThe value of \'i1 = fun(1)\' is ";
     i1 = fun(1);
     cout << i1 << "."  << endl;
-    cout << "\tThe return value \'i5 = fun(5)\' is ";
+    cout << "\tThe value of \'i5 = fun(5)\' is ";
     i5 = fun(5);
     cout << i5 << "."  << endl;
-    cout<< "\tThus, the bitwise and operator \'i = i1 & i5\' returns ";
+    cout<< "\tThus, the value of \'i = i1 & i5\' is ";
     i = i1 & i5;
     cout << i <<"." << endl << flush;
-    cout<< "\tThus, the bitwise and operator \'i = i5 & i1\' returns ";
+    cout<< "\tThus, the value of \'i = i5 & i1\' is ";
     i = i5 & i1;
     cout << i <<"." << endl << endl << flush;
     

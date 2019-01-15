@@ -234,6 +234,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = ansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -243,6 +244,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = ansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
