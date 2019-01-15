@@ -24,29 +24,29 @@ int main(void)
 	cout << endl << "\tThis is the \'Example-200\' Test in the C++ language." << endl;
 	cout <<"\t==============================================================" << endl <<endl;
 	
-    /* First attempt: fun(0) & fun(1) */
+    /* First pair of attempts: 'fun(0) & fun(1)' and 'fun(1) & fun(0)' */
     cout << "\tThe value of \'i0 = fun(0)\' is ";
-	i0 = fun(0);
-	cout << i0 << "."  << endl;
-	cout << "\tThe value of \'i1 = fun(1)\' is ";
-	i1 = fun(1);
-	cout << i1 << "."  << endl;
-	cout<< "\tThus, the value of \'i = i0 & i1\' is ";
-	i = i0 & i1;
-	cout << i <<"." << endl << flush;
+    i0 = fun(0);
+    cout << i0 << "."  << endl;
+    cout << "\tThe value of \'i1 = fun(1)\' is ";
+    i1 = fun(1);
+    cout << i1 << "."  << endl;
+    cout<< "\tThus, the value of \'i = i0 & i1\' is ";
+    i = i0 & i1;
+    cout << i <<"." << endl << flush;
     cout<< "\tThus, the value of \'i = i1 & i0\' is ";
     i = i1 & i0;
     cout << i <<"." << endl << endl << flush;
-    
-    /* Second attempt: fun(1) & fun(1) */
+
+    /* Second attempt: 'fun(1) & fun(1)' */
     cout << "\tThe value of \'i1 = fun(1)\' is ";
     i1 = fun(1);
     cout << i1 << "."  << endl;
     cout<< "\tThus, the value of \'i = i1 & i1\' is ";
     i = i1 & i1;
-    cout << i <<"." << endl << endl << flush; 
-    
-    /* Third attempt: fun(1) & fun(2) */
+    cout << i <<"." << endl << endl << flush;
+
+    /* Third pair of attempts: 'fun(1) & fun(5)' and 'fun(5) & fun(1)' */
     cout << "\tThe value of \'i1 = fun(1)\' is ";
     i1 = fun(1);
     cout << i1 << "."  << endl;
@@ -61,13 +61,13 @@ int main(void)
     cout << i <<"." << endl << endl << flush;
     
     /* The game ends here! */
-	cout <<"\t==============================================================" << endl <<endl;
-	cout << "\tPress the <RETURN> key to finish ... ";
-	cout.flush();
-	cin.get();
-	#ifndef _MSC_VER
-		cout << endl;
-		cout.flush();
-	#endif
-	return EXIT_SUCCESS;
+    cout <<"\t==============================================================" << endl <<endl;
+    cout << "\tPress the <RETURN> key to finish ... ";
+    cout.flush();
+    cin.get();
+    #ifndef _MSC_VER
+        cout << endl;
+        cout.flush();
+    #endif
+    return EXIT_SUCCESS;
 }
