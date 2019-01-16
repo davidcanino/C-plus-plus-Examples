@@ -1,4 +1,4 @@
-/**********************************************************************************************
+/*********************************************************************************************************
  * Examples in the C++ language (the 'Example-201' Test).
  *
  * GitHub repository: https://github.com/davidcanino/C-plus-plus-Examples
@@ -6,9 +6,9 @@
  * Created by David Canino (canino.david@gmail.com), January 2019.
  *
  * main.cpp - the C++ source file, implementing the main function for the 'Example-201' Test.
- **********************************************************************************************/
+ *********************************************************************************************************/
 
-/* NOTE: the 'Example-201' Test cannot be compiled due to the wrong definition of the 'Case3_struct' type! */
+/* NOTE: this test cannot be compiled due to the wrong declaration of the 'Case3_struct' type! */
 
 #include <iostream>
 #include <cstdlib>
