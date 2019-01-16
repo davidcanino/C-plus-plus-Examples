@@ -32,7 +32,7 @@ cmake ..
 make
 </pre>
 <p>
-	As mentioned above, the <i>'Example-001'</i> executable file is created. For instance, this test is executed by running:
+	As mentioned above, the <i>'Example-001'</i> executable file will be created. For instance, this test is executed by running:
 </p>
 <pre>./Example-001</pre>
 <p>
@@ -44,7 +44,7 @@ make
 
 <!--- Building with the Microsoft Visual Studio --->
 <h4>Instructions for building this test with the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i></h4>
-<p>This test is also built by using the <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> under the Microsoft Windows 8.1 (and higher). In particular, the <i><code>'vstudio'</code></i> folder contains the <i>'Example-001.sln'</i> solution file, which can be open and built without being modified by clicking on the <i>'Build'</i> command. The <i>'Example-001.exe'</i> resulting executable file is stored in a folder, whose path depends on the user choices about including the debugging symbols (<i><code>'Debug'</code></i> or <i><code>'Release'</code></i>), and about the reference platform (<i><code>'x86'</code></i> or <i><code>'x64'</code></i>). The resulting path is a combination of these aspects.</p>
+<p>This test is also built by using the <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> under the Microsoft Windows 8.1 (and higher). In particular, the <i><code>'vstudio'</code></i> folder contains the <i>'Example-001.sln'</i> solution file, which can be open and built without being modified by clicking on the <i>'Build'</i> command. The <i>'Example-001.exe'</i> resulting executable file will be stored in a folder, whose path depends on the user choices about including the debugging symbols (<i><code>'Debug'</code></i> or <i><code>'Release'</code></i>), and about the reference platform (<i><code>'x86'</code></i> or <i><code>'x64'</code></i>). The resulting path is a combination of these aspects.</p>
 <p>Note that the <i>'Example-001.sln'</i> solution file is independently created from scratch, and is different from the solution file, which may be generated automatically by the <i><A href="https://cmake.org">CMake Building Tool</A></i>.</p>
 <p>An interested user finds more details in the Official Documentation of the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>.</p>
 <p><hr></p>
@@ -52,7 +52,7 @@ make
 <!--- Building with the Apple Xcode --->
 <h4>Instructions for building this test with the <i><A href="https://developer.apple.com/xcode/">Apple Xcode</A></i></h4>
 <p>
-	This test is also built by using the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> (based on the <A href="https://clang.llvm.org/"><i>CLANG</i></A> compiler) under the OS X 10.11.* El-Capitan (and higher). In particular, the <i><code>'xcode'</code></i> folder contains the <i>'Example-001.xcodeproj'</i> project file, which can be open and built without being modified by clicking on the <i>'Build & Run'</i> command. The <i>'Example-001'</i> resulting executable file is stored either in the <i><code>'Build/Products/Debug/'</code></i> folder, if the debugging symbols are included, or in the <i><code>'Build/Products/Release/'</code></i> folder, otherwise.
+	This test is also built by using the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> (based on the <A href="https://clang.llvm.org/"><i>CLANG</i></A> compiler) under the OS X 10.11.* El-Capitan (and higher). In particular, the <i><code>'xcode'</code></i> folder contains the <i>'Example-001.xcodeproj'</i> project file, which can be open and built without being modified by clicking on the <i>'Build & Run'</i> command. The <i>'Example-001'</i> resulting executable file will be stored either in the <i><code>'Build/Products/Debug/'</code></i> folder, if the debugging symbols are included, or in the <i><code>'Build/Products/Release/'</code></i> folder, otherwise.
 </p>
 <p>
 	Note that the <i>'Example-001.xcodeproj'</i> project file is independently created from scratch, and is different from the project file, which may be generated automatically by the <i><A href="https://cmake.org">CMake Building Tool</A></i>.
