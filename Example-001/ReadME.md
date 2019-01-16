@@ -24,8 +24,7 @@
 
 <!--- Building with the Cmake Building Tool --->
 <h4>Instructions for building this test with the <i><A href="https://cmake.org">CMake Building Tool</A></i></h4>
-<p>
-	This test is built by using the <i>classic</i> instructions for building a program with the <i><A href="https://cmake.org">CMake Building Tool</A></i> from the <i><code>'cmake'</code></i> folder:
+This test is built by using the <i>classic</i> instructions for building a program with the <i><A href="https://cmake.org">CMake Building Tool</A></i> from the <i><code>'cmake'</code></i> folder:
 </p>
 <pre>mkdir build
 cd build
@@ -47,7 +46,7 @@ make
 
 <!--- Building with the Microsoft Visual Studio --->
 <h4>Instructions for building this test with the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i></h4>
-<p>This test is also built by using the <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> under the Microsoft Windows 8.1 (and higher). In particular, the <i><code>'vstudio'</code></i> folder contains the <i>'Example-001.sln'</i> solution file, which can be open and built without being modified. It can be built by clicking on the <i>'Build'</i> command. The resulting <i>'Example-001.exe'</i> executable file is stored in a folder, such that its path depends not only on what platform (<i><code>x86</code></i> or <i><code>x64</code></i>) is chosen by the user, but also on whether the debugging symbols have to be included (<i><code>Debug</code></i> or <i><code>Release</code></i>).</p>
+<p>This test is also built by using the <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> under the Microsoft Windows 8.1 (and higher). In particular, the <i><code>'vstudio'</code></i> folder contains the <i>'Example-001.sln'</i> solution file, which can be open and built without being modified. It can be built by clicking on the <i>'Build'</i> command. The resulting <i>'Example-001.exe'</i> executable file is stored in a folder, such that its path depends not only on whether the debugging symbols have to be included (<i><code>'Debug'</code></i> or <i><code>'Release'</code></i>), but also on what platform is chosen by the user (<i><code>'x86'</code></i> or <i><code>'x64'</code></i>). The resulting path is a combination of these aspects.</p>
 <p>Note that this solution file is independently created from scratch, and is different from the solution file, which may be generated automatically by the <i><A href="https://cmake.org">CMake Building Tool</A></i>.</p>
 <p>An interested user finds more details in the Official Documentation of the <i><A href="https://www.visualstudio.com/">Microsoft Visual Studio (Community Edition 2017)</A></i>.</p>
 <p><hr></p>
