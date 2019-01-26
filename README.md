@@ -5,6 +5,6 @@
 
 <p>All examples and experiments in this repository are tested with the <A href="https://gcc.gnu.org/"><i>GCC</i></A> under the Ubuntu Linux 16.0.4 (LTS), as well as the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> (based on the <A href="https://clang.llvm.org/"><i>CLANG</i></A> compiler) under the OS X 11.* El-Capitan (and higher), and the <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> under the Microsoft Windows 8.1 (and higher).</p>
   
-<p>Their <A href="https://cmake.org"><i>CMake</i></A> building infrastructure is provided, as well as the corresponding <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> solution file, and the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> project file.</p>
+<p>Their <A href="https://cmake.org"><i>CMake</i></A> building infrastructure is provided, and is used for generating automatically the corresponding <A href="https://www.visualstudio.com/"><i>Microsoft Visual Studio (Community Edition 2017)</i></A> solution file, and the <A href="https://developer.apple.com/xcode/"><i>Apple Xcode</i></A> project file.</p>
 
 <p><hr><p><table border=1><tr><td><p><b>ATTENTION:</b><p>All third-party registered trademarks are the property of their respective owners. I am not affiliated to or sponsored by these third-party entities.</td></tr></table>
